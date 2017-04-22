@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xml:space="preserve"
+  width="61.55mm"
+  height="88.2098mm"
+  version="1.1"
+  style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+  viewBox="0 0 6155 8821"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        .fil0 {fill:black}
+      ]]>
+    </style>
+  </defs>
+  <g id="Camada_x0020_1">
+    <metadata id="CorelCorpID_0Corel-Layer"/>
+    <path class="fil0" d="M5356 5008l376 217 0 1525 -1321 763 0 762 -125 72 -125 -72 -205 118 -205 119 0 144 -192 110 -125 -72 -219 127 -275 0 -219 -127 -125 72 -192 -110 0 -144 -205 -119 -205 -118 -125 72 -125 -72 0 -762 -1321 -763 0 -1525 376 -217 -799 -1930 901 -2177 2177 -901 2176 901 901 2177 -799 1930zm-1985 2505l-587 0 294 -577 293 577zm-601 -933l-1026 593 -1026 -593 0 -1185 2052 1185zm2667 -1185l0 1185 -1026 593 -1026 -593 2052 -1185z"/>
+  </g>
+</svg>
