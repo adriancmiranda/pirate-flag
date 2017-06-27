@@ -8,7 +8,6 @@
 # pirate-flag
 > A black flag bearing the figure of a skeleton
 
-[![xo][xo]][xo-url]
 [![npm][npm]][npm-url]
 [![deps][deps]][deps-url]
 [![depsci][depsci]][depsci-url]
@@ -49,9 +48,6 @@ pirateFlag(packageJson?: object, libInfo?: object, options?: object);
 
 [npm]: https://img.shields.io/npm/v/pirate-flag.svg
 [npm-url]: https://npmjs.com/package/pirate-flag
-
-[xo]: https://img.shields.io/badge/code_style-XO-5ed9c7.svg
-[xo-url]: https://github.com/sindresorhus/xo
 
 [npm]: https://img.shields.io/npm/v/pirate-flag.svg
 [npm-url]: https://npmjs.com/package/pirate-flag
