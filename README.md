@@ -1,7 +1,13 @@
+<div align="left">
+  <a href="https://github.com/adriancmiranda/">
+    <img width="150" height="150"
+      src="http://svgshare.com/i/254.svg" title="pirate-flag">
+  </a>
+</div>
+
 # pirate-flag
 > A black flag bearing the figure of a skeleton
 
-[![stability][stability]][stability-url]
 [![xo][xo]][xo-url]
 [![npm][npm]][npm-url]
 [![deps][deps]][deps-url]
@@ -9,14 +15,32 @@
 [![travis][travis]][travis-url]
 [![appveyor][appveyor]][appveyor-url]
 
-## Install
+## 🏴 Install
 
 ```bash
 npm i -D pirate-flag
 ```
 
+## 🏴 Usage
 
-## License
+```javascript
+var pirateFlag = require('pirate-flag');
+pirateFlag(packageJson?: object, libInfo?: object, options?: object);
+```
+
+:black_circle: **packageJson**?: object
+
+> **name**: string
+> <br>**version**: string
+
+:black_circle: **options**?: object
+
+> **comment**: boolean
+> <br>**columns**: number
+> <br>**lineChar**: string
+> <br>**image**: array
+
+## 🏴 License
 
 [Unlicense][license-url]
 
@@ -43,8 +67,5 @@ npm i -D pirate-flag
 
 [depsci]: https://dependencyci.com/github/adriancmiranda/pirate-flag/badge
 [depsci-url]: https://dependencyci.com/github/adriancmiranda/pirate-flag
-
-[stability]: http://badges.github.io/stability-badges/dist/experimental.svg
-[stability-url]: https://cdn.meme.am/cache/instances/folder481/500x/9689481.jpg
 
 [license-url]: https://github.com/adriancmiranda/pirate-flag/blob/master/LICENSE
