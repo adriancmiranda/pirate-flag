@@ -5,3 +5,5 @@ test/
 package.json
 appveyor.yml
 .travis.yml
+.github
+!.github/assets
