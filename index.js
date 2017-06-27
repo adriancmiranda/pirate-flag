@@ -3,6 +3,9 @@ module.exports = (packageJson, info, opts = {}) => {
 	const version = pkg.version ? String(pkg.version) : '';
 	const name = pkg.name ? String(pkg.name) : '';
 	const useOwn = Array.isArray(opts.image) && opts.image.length;
+  const prefix = opts.comment ? '/*!\n' : '';
+  const suffix = opts.comment ? ' */' : '';
+  const star = opts.comment ? ' * ' : '';
 	const image = useOwn ? opts.image : [
 		'   /     \'      /  / ',
 		'  /__      ___ (  /   ',
@@ -12,7 +15,7 @@ module.exports = (packageJson, info, opts = {}) => {
 		'      |_:_._/         ',
 		'                      '
 	];
-	const line = '\n';
+	const line = `\n${star}`;
 	const columns = opts.columns ? opts.columns : image[0].length;
 	const space = version.length ? ' ' : '';
 	const diff = columns - space.length - name.length - version.length + 1;
@@ -23,5 +26,5 @@ module.exports = (packageJson, info, opts = {}) => {
   if (name.length && version.length) {
 	  image.push(hr + name + space + `v${version}` + footer.join(line));
   }
-	return image.join(line);
+	return `${prefix}${star}${image.join(line)}${suffix}`;
 };
