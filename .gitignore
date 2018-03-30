@@ -43,6 +43,7 @@ Session.vim
 !.editorconfig
 !.gitattributes
 !.gitignore
+!.eslintrc
 !.npmignore
 !.npmrc
 !.travis.yml
