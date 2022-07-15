@@ -1,11 +1,10 @@
-import test from 'ava-spec';
-import pirateFlag from '../';
-import pkg from '../package.json';
+const pirateFlag = require('../');
+const pkg = require('../package.json');
 
-test('should print correctly', t => {
+test('should print correctly', () => {
 	const wkidd = pirateFlag(pkg, {
 		homepage: pkg.homepage,
 		author: pkg.author,
 	});
-	t.is(toString.call(wkidd), '[object String]');
+	expect(toString.call(wkidd)).toBe('[object String]');
 });

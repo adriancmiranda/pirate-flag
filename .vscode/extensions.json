@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "henrynguyen5-vsc.vsc-nvm",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint"
+  ]
+}
