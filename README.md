@@ -9,8 +9,6 @@
 > A black flag bearing the figure of a skeleton
 
 [![npm][npm]][npm-url]
-<!-- [![deps][deps]][deps-url] -->
-<!-- [![depsci][depsci]][depsci-url] -->
 [![travis][travis]][travis-url]
 [![appveyor][appveyor]][appveyor-url]
 
